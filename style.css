@@ -1,5 +1,5 @@
 body {
-  margin: 15px;
+  margin: 0;
   padding: 0;
   background-color: white;
   color: black;
@@ -10,11 +10,12 @@ body {
   display: grid;
   /* place-items: center; */
   grid-template-columns: 1.5fr 3fr;
-  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 100px;
   margin: 2rem auto;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   gap: 2rem;
+  padding: 2rem;
 }
 
 img {
@@ -74,10 +75,6 @@ img {
   height: 3rem;
 }
 
-.languages h3 {
-  /* text-align: center; */
-}
-
 .about {
   display: grid;
   height: 22.6rem;
@@ -121,7 +118,7 @@ img {
 }
 
 .expirience {
-  border-bottom: 2px solid black;
+  /* border-bottom: 2px solid black; */
 }
 
 .expirience div {
@@ -134,4 +131,7 @@ img {
   margin-left: 2rem;
 }
 
+.projects{
+  /* border-bottom: 2px solid black; */
+}
 
