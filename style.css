@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.main {
+  display: grid;
+  /* place-items: center; */
+  grid-template-columns: 1.5fr 3fr;
+  grid-template-rows: 200px 200px 200px 100px;
+  margin: 2rem auto;
+  width: 90%;
+  height: 90%;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.city {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.column_one {
+  /* margin-right: 2rem; */
+  display: grid;
+}
+
+.column_two {
+  display: grid;
+  /* grid-gap: 0.5rem; */
+}
+
+.photoContent {
+  display: grid;
+  margin: 0.4rem;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 2px solid black;
+}
+
+.contacts {
+  display: grid;
+  /* margin: 0.4rem; */
+  grid-template-rows: repeat(4, 1fr);
+  border-bottom: 2px solid black;
+}
+
+.contacts div {
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 3rem;
+}
+
+.languages {
+  display: grid;
+  margin: 0.4rem;
+  grid-template-rows: repeat(2, 1fr);
+  border-bottom: 2px solid black;
+}
+
+.languages div {
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr fr;
+  height: 3rem;
+}
+
+.about {
+  display: grid;
+  height: 22.6rem;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.skills {
+  position: relative;
+  display: grid;
+  align-items: end;
+  justify-items: center ;
+  height: 20.7rem;
+  border-bottom: 2px solid black;
+}
+
+.skills div {
+  display: grid;
+  grid-template-rows: repeat(5, 50px);
+  grid-template-columns: repeat(3, 180px);
+}
+
+.skills h2 {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+.education {
+  border-bottom: 2px solid black;
+}
+
+.education div {
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: end;
+}
+
+.expirience div {
+  margin-left: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.projects div{
+  margin-left: 2rem;
+}
+
+
