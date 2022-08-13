@@ -93,8 +93,6 @@ img {
 
 .skills div {
   display: grid;
-  /* text-align: end;
-  justify-items: start; */
   grid-template-rows: repeat(5, 50px);
   grid-template-columns: repeat(3, 180px);
 }
@@ -110,15 +108,11 @@ img {
 }
 
 .education div {
-  margin-left: 2rem;
+  /* margin-left: 1.7rem; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   align-items: end;
-}
-
-.expirience {
-  /* border-bottom: 2px solid black; */
 }
 
 .expirience div {
@@ -129,9 +123,5 @@ img {
 
 .projects div{
   margin-left: 2rem;
-}
-
-.projects{
-  /* border-bottom: 2px solid black; */
 }
 
