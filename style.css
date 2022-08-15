@@ -43,14 +43,14 @@ img {
   justify-items: center;
   align-items: center;
   gap: 1rem;
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
 }
 
 .contacts {
   display: grid;
   /* margin: 0.4rem; */
   grid-template-rows: repeat(4, 1fr);
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
 }
 
 .contacts div {
@@ -64,7 +64,7 @@ img {
   display: grid;
   margin: 0.4rem;
   grid-template-rows: repeat(2, 1fr);
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
 }
 
 .languages div {
@@ -79,7 +79,7 @@ img {
   display: grid;
   height: 22.6rem;
   width: 100%;
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
 }
 
 .skills {
@@ -88,7 +88,7 @@ img {
   align-items: end;
   justify-items: center ;
   height: 20.7rem;
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
 }
 
 .skills div {
@@ -104,7 +104,7 @@ img {
 }
 
 .education {
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid black;
 }
 
 .education div {
